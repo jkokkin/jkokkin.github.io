@@ -1,0 +1,56 @@
+# jemdoc: menu{MENU}{program.html}, title{BASIS Tutorial at CVPR 2014}
+= CVPR 2014 Tutorial: BASes for Images and Surfaces (BASIS)
+
+== Schedule {{<a name="schedule"></a>}}
+
+~~~
+{}{table}{TABLENAME}
+7:30-8:30   | Breakfast | | ||
+
+8:30-9:15   | Speaker
+	    | Harmonic basis \n [slides/.pdf \[slides\]]
+	    | Linear Time Invariant (LTI) systems and convolution. Eigenfunctions of LTI systems and Fourier transforms; properties of convolution and efficient filter design techniques. Linear and Nonlinear Heat Diffusion.
+            ||
+
+9:15-10:00  | Speaker
+	    | Overcomplete bases \n [slides/.pdf \[slides\]]
+	    | Wavelets, dictionaries, sparse coding, exemplar and non-local models. Basis and dictionary learning, applications to image processing (denoising, inpainting) and object detection.
+            ||
+
+10:00-10:30 | Coffee Break | | ||
+
+10:30-11:15 | Speaker
+	    | Bases and invariance \n [slides/.pdf \[slides\]]
+	    | Epitomes, shift-invariant sparse coding, scale- and rotation- invariance, multi-resolution bases and deep modeling.
+            ||
+
+11:15-12:00 | Speaker
+	    | Bases and efficiency \n [slides/.pdf \[slides\]]
+	    | Applications to efficient object detection (steerable part filters, shufflets, sparselets, etc.)
+            ||
+
+12:00-1:30  | Lunch Break | | ||
+
+1:30-2:15   | Speaker
+	    | Analysis on manifolds \n [slides/.pdf \[slides\]]
+	    | Diffusion operators, their spectral properties, Fourier analysis on manifolds. Heat diffusion equation on a Riemannian manifold. The Laplace-Beltrami operator. Diagonalization of Laplacians, relation to joint approximate diagonalization problems. The fundamental solution based on the heat kernel. The discrete heat operator and its basic algebraic properties. Scale-space and heat diffusion. The diffusion and the commute-time distances.
+            ||
+
+2:15-3:00   | Speaker
+	    | Shape representation \n [slides/.pdf \[slides\]]
+	    | Manifold embedding using the heat operator. Relationship with Laplacian embedding and diffusion embeddings. Geometric and photometric diffusion. Local and global diffusion geometry. Feature detection and feature description. Heat kernel signatures. Volumetric vs surface diffusion.
+            ||
+
+3:00-3:30   | Coffee Break | ||
+
+3:30-4:15   | Speaker
+	    | Applications \n [slides/.pdf \[slides\]]
+	    | Minimum-distortion similarity and correspondences. Functional correspondence, relation to sparse coding problems. Intrinsic symmetry detection. Shape retrieval, bag-of-feature methods.
+            ||
+
+4:15-5:00   | Speaker
+	    | Wrap-up \n [slides/.pdf \[slides\]]
+	    | Practical and implementation considerations. CPU and GPU implementations. Pointers to software.
+            ||
+
+~~~

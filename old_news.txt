@@ -1,0 +1,66 @@
+
+20 Feb: one paper <a href="publications.html">accepted</a> to ISBI 2016.
+<br><br>
+
+02 Feb: one main track and one workshop paper <a href="publications.html">accepted</a> to ICLR 2016.
+<br><br>
+
+20 Jan: I will be serving as Area Chair for <a href="http://www.eccv2016.org/">ECCV 2016</a>.
+<br><br>
+
+15 Jan: I will be serving as Guest Editor in CVIU’s  <font color="red">
+<a href="http://www.journals.elsevier.com/computer-vision-and-image-understanding/call-for-papers/special-issue-on-deep-learning-for-computer-vision/">Special Issue in Deep Learning</a> </font>
+
+
+<br><br>
+8 Jan: Congratulations to <a href="http://cvn.ecp.fr/personnel/tsogkas/">Stavros Tsogkas</a> for successfully defending his thesis!
+<br><br>
+
+6 Jan: I will be serving as Associate Editor for <a href="http://www.journals.elsevier.com/computer-vision-and-image-understanding">CVIU</a>.
+<br><br>
+
+
+5 Jan: Our ICCV tutorial on Probabilistic Deep Learning with <a href="http://ttic.uchicago.edu/~gpapan/">George Papandreou</a> is now <a href="dl.html">online</a>.
+<br><br>
+10 Dec: I will be serving as Area Chair for <a href="http://www.accv2016.org/">ACCV 2016</a>.
+<br><br>
+
+23 Nov: super-human performance in boundary detection using deep learning <a href="http://arxiv.org/abs/1511.07386">arxiv</a><br><br>
+23 Nov: four new works on deep learning are now posted on <a href="http://arxiv.org/find/cs/1/au:+Kokkinos_I/0/1/0/all/0/1">arxiv</a>
+<br><br>
+
+04 Sep: One paper accepted at ICCV 2015 - congratulations to <a href="http://cvlabwww.epfl.ch/~trulls/">Eduard</a> and  <a href="http://www.iri.upc.edu/people/esimo/en/">Edgar</a>!
+<br>
+<br>
+01 Sep: I will be serving as Area Chair for <a href="http://www.pamitc.org/cvpr16/">CVPR 2016</a>
+<br>
+
+
+19 Dec: In our latest <a href="publications.html">arxiv report</a> we use a Siamese Deep Convolutional Network and achieve large performance gains over SIFT in patch retrieval. 
+<br>
+<br>
+30 Nov: In our latest <a href="publications.html">arxiv report</a> we obtain 56.4% mAP on Pascal VOC2007 with Deep CNN sliding window detectors. Joint work with <a href="http://ttic.uchicago.edu/~gpapan/">
+G. Papandreou</a> and <a href="http://pasavalle.perso.math.cnrs.fr/">P.-A. Savalle</a><br><br>
+
+20 Sep: Received an equipment gift (2xTesla K40) for research in deep learning as part of the NVIDIA Academic Hardware Donation Program. Thanks NVIDIA! <br>
+<br>
+2 Sep: Our TTIC_ECP entry on the Imagenet 2014 <a href="http://image-net.org/challenges/LSVRC/2014/results#clsloc">competition</a> achieved 10.2% top-5 error rate. 
+[<a href="http://www.image-net.org/challenges/LSVRC/2014/eccv2014">ILSVRC workshop</a>]
+[<a href="http://image-net.org/challenges/LSVRC/2014/slides/ttic_ecp_talk.pptx">presentation</a>]
+[<a href="http://www.youtube.com/watch?v=BPe1ujVEA24">talk video</a>]
+<br>
+<br>
+1 Sep: Our work on combining DPMs with CNNs is <a href="publications.html">accepted</a> at ECCV <a href="https://filebox.ece.vt.edu/~parikh/PnA2014/"> Parts-and-Attributes</a>. <br>
+<br>
+19 Aug: I will be serving as area chair for <a href="http://www.pamitc.org/cvpr15/">CVPR 2015</a><br>
+<br>
+
+25 Jul: Slides are now available for our <a href="http://cvn.ecp.fr/personnel/iasonas/basis14/">Basis<a>
+ CVPR 2014 tutorial on image and surface analysis with <a href="http://www.eng.tau.ac.il/~bron/">Alex Bronstein</a>, 
+<a href ="http://www.inf.usi.ch/bronstein/">Michael Bronstein</a> and <a href="http://ttic.uchicago.edu/~gpapan/">George Papandreou</a>.<br>
+<br>
+20 Mar: 4 papers <a href="publications.html">accepted</a> to CVPR 2014 - congratulations to  <a href="http://cvn.ecp.fr/personnel/haithem/">Haithem</a>, 
+<a href="http://cvc.centrale-ponts.fr/personnel/tsogkas/">Stavros</a>, 
+<a href="http://www.iri.upc.edu/people/etrulls/">Eduard</a> and Mircea. <br>
+<br>
+

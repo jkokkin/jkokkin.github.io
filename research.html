@@ -1,0 +1,340 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Plain Office
+Description: A two-column, fixed-width blog design.
+Version    : 1.0
+Released   : 20071001
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Home Page of Iasonas Kokkinos</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="default.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+<!-- start header -->
+
+<div id="menu">
+	<ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="publications.html">Publications</a></li>
+	<li><a href="students.html">Students</a></li>
+	<li><a href="code.html">Code</a></li>
+	<li><a href="teaching.html">Teaching</a></li>
+	<li><a href="projects.html">Projects</a></li>
+	</ul>
+</div>
+<!-- end header -->
+
+<!-- start page -->
+<div id="page">
+	<div id="page-bg">
+		<!-- start content -->
+		<div id="content">
+			<div class="post">
+<a name = "top"></a>
+<h2> Combining Low- and High- level vision </h2>
+I am working on learning, segmenting and parsing with deformable object models. The main priority of my research is to develop models 
+that 
+allow to combine low-level processing (e.g. boundary detection, segmentation) with high-level information, e.g. model-based guidance.
+
+<br>
+<p>
+<p><strong><img src="images/parsing.jpg" alt="" width="220" height="155" class="left"></strong></p>
+<p>
+<a name = "hop"></a>
+<b> Object Parsing</b>
+We address the problem of detecting
+an object and its components by recursively composing them from image observations. 
+We
+develop an efficient inference  method
+ that addresses the computational complexity of the
+problem by relying on A*. <br>
+We  use our hierarchical object model
+to efficiently compute a coarse solution
+which then guides search at the fine level.
+This rules out futile compositions and allows us to parse
+complex objects in heavily cluttered scenes.
+<br>
+<p ALIGN="LEFT" style="margin-top: 0; margin-bottom: 1">
+I. Kokkinos and A. Yuille, <br>
+<b>
+Inference and Learning with Hierarchical Shape Models</a> </b><br>
+Int.l Journal of Computer Vision  (IJCV), to appear. <br>
+<a href="pubs/KokkinosYuille_hierarchical_shape_models_IJCV10.pdf"> [pdf]</a>
+</p>
+
+<p ALIGN="LEFT" style="margin-top: 0; margin-bottom: 1">
+I. Kokkinos and A. Yuille, <br>
+<b>
+HOP: Hierarchical Object Parsing, </font></b><br>
+Proc.
+IEEE Conf. on Computer Vision and Pattern Recognition (CVPR), 2009. </font><br>
+<a href="pubs/KokkinosYuille_HOP_CVPR09.pdf">[pdf]</a>
+<a href="bibs/KoYu09.bib">[bib]</a>
+<a href="slides/Slides_compositional.pdf">[slides]</a>
+</p>
+</p><br>
+</p>
+
+
+<a name="aam"></a>
+<p><strong><img src="images/aams.bmp" alt="" width="220" height="185" class="left"></strong></p>
+<p>
+<b>  Learning Deformation Models </b> 
+Modeling  deformations is necessary in order to disentangle shape and appearance variation. This
+makes easier the treatment of both. <br>
+
+We discard appearance variation by  working with the edges and ridges of an image, and focus
+on the task of automatically registering our training set. <br>
+We work with two types of deformation models: Active Appearance Models and Part-Based deformation models. We formulate the task of learning as an Expectation Maximization procedure and then provide the tools that are needed to render the EM approach feasible. <br>
+We demonstrate results using a wide variety of objects. In our on-going work we  use this approach to automate the learning of the
+hierarchical models used for parsing. 
+</p>
+<p ALIGN="LEFT" style="margin-top: 0; margin-bottom: 1">
+I. Kokkinos and A. Yuille, <br>
+<b>
+Unsupervised Learning of Object Deformation Models,
+</b><br>
+Proc. IEEE Int'l. Conf. on Computer Vision (ICCV), 2007.<br>
+<a  href="pubs/KokkinosYuille_deformations_iccv07.pdf">[pdf]</a>
+<a href="pubs/KokkinosYuille_deformations_supplemental.pdf">
+[supplement]</a>
+<a  href="bibs/KoYu07.bib">
+[bib]</a>
+<a href="slides/Deformations_UCLA_Oct_2007.pdf">[slides]</a>
+</p>
+</p><br>
+
+
+<p><a name="tokensc"></a>
+<p>
+<p><strong><img src="images/swan.jpg" alt="" width="220" height="165" class="left"> </strong></p>
+<p>
+<b> Contours and Recognition</b>
+This is the first of our works on using the boundaries and symmetry axes of the image to model and detect objects. 
+<br>
+We extract these features using T. Lindeberg's scale-invariant primal sketch and break them into simple tokens using line segmentation.
+After constructing a simple codebook-model from these features we then detect objects with matching and voting.  <br>
+  The misses of the feature extraction stage are recovered in a top-down stage.
+  For this we develop an efficient algorithm that relies on Stoke's theorem to generalize the Integral Image technique to arbitrary shapes.
+</p>
+<p ALIGN="LEFT" style="margin-top: 0; margin-bottom: 1">
+I. Kokkinos, P. Maragos  and A. Yuille, <br>
+<b>
+Bottom-Up and Top-Down Object Detection Using Primal
+Sketch Features and Graphical Models,
+</b><br>
+Proc.
+IEEE Conf. on Computer Vision and Pattern Recognition (CVPR), 2006.
+<br></font>
+<a  href="pubs/KokkinosMaragosYuille_primal_sketch_CVPR06.pdf">[pdf]</a>
+<a  href="slides/Slides_lhi_talk_4_8_2006.pdf">[slides]</a>
+<a  href="bibs/KMY06.bib">[bib]</a>
+<a  href="sketch.html">[code]</a>
+</p>
+<br>
+
+
+
+<p><a name="emsyn"></a>
+<p><strong><img src="images/em.bmp" alt="" width="220" height="185" class="left"></strong></p>
+<b>  Segmentation and Recognition</b>
+We formulate the task of segmenting an image as the assignment of observations to hypotheses, and treat object models as providing one of the hypotheses considered. <br> 
+We phrase the problem of joint segmentation and recognition using the EM algorithm, interpreting the assignment of observations  as the E-step and model fitting as the M-step.
+<br>
+Based on the variational interpretation of EM we build a link with curve evolution, and implement the E-step using Level-Set
+methods. 
+Apart from top-down segmentation, the EM scheme allows the validation of bottom-up object detection results, pruning false positives.
+</p>
+<p ALIGN="LEFT" style="margin-top: 0; margin-bottom: 1">
+I. Kokkinos and P. Maragos, <br>
+<b>
+Synergy Between Image Segmentation and Object Recognition Using
+the Expectation Maximization Algorithm </a> </b><br>
+IEEE Trans. on Pattern Analysis and Machine Intelligence (PAMI), Vol. 31(8), pp. 1486-1501, 2009. <br>
+<a href="pubs/KokkinosMaragos_EM_PAMI09.pdf"> [pdf]</a>
+<a  href="slides/Slides_lhi_talk_4_8_2006.pdf">[slides]</a>
+<a href="bibs/KoMa09.bib"> [bib]</a><br>
+ICCV '05 version: <a href="pubs/KokkinosMaragos_EM_synergy_iccv05.pdf">[pdf]</a>
+<a  href="bibs/KoMa05d.bib">[bib]</a><br>
+</p><br>
+
+
+<a name = "sid"></a>
+<p><strong><img src="images/sid.jpg" alt="" width="190" height="165" class="left"> </strong>
+<p>
+<b> Scale-Invariant Descriptors</b>
+We introduce a method to extract
+an appearance descriptor around a point in a scale-invariant manner, but
+without relying on scale selection. <br>
+For this we use a log-polar sampling scheme, that turns image rotations and scalings into
+translations in the log-polar coordinate system. Taking the magnitude of the Fourier Transform then
+yields a scale- and orientation- invariant descriptor. <br> 
+This  descriptor outperforms the SIFT and GLOH descriptors on standard benchmarks. 
+It  is most useful for edges,
+as they lack a reliable scale; we show that
+it can enhance the image sketch and lead to improved detection performance. 
+<br>
+<p ALIGN="LEFT" style="margin-top: 0; margin-bottom: 1">
+I. Kokkinos and A. Yuille, <br>
+<b>
+Scale Invariance without Scale Selection, </a></font></b><br>
+Proc.
+IEEE Conf. on Computer Vision and Pattern Recognition (CVPR), 2008. </font><br>
+<a href="pubs/KokkinosYuille_ScaleInvariance_CVPR08.pdf">
+[pdf]</a>
+<a href="bibs/KoYu08.bib">[bib]</a>
+<a  href="code">[code]</a>
+<p ALIGN="LEFT" style="margin-top: 0; margin-bottom: 1">
+</font>
+<p ALIGN="LEFT" style="margin-top: 0; margin-bottom: 1">
+I. Kokkinos, <FONT COLOR="#FF0000">[new!]</FONT> <br>
+<b>
+Boundary Detection and Grouping using Descriptors, Boosting and Fractional-Linear Programming, </font></b><br>
+Proc.
+IEEE Conf. on Computer Vision and Pattern Recognition (CVPR), 2010. </font><br>
+<br>
+M. Bronstein and I. Kokkinos, <FONT COLOR="#FF0000">[new!]</FONT> <br>
+<b>
+Scale-invariance in local heat kernel descriptors without scale selection and normalization, </font></b><br>
+Proc.
+IEEE Conf. on Computer Vision and Pattern Recognition (CVPR), 2010. </font><br>
+</p>
+</p>
+
+<br>
+<br>
+<h2> Other Projects</h2>
+<a name = "amfm"></a>
+<p><strong><img src="images/feat_2_fr_2_set_9_im_26-101.bmp" alt="" width="180" height="125" class="left"></strong></p>
+<p><b> Texture Analysis and Segmentation </b>
+We use the AM-FM paradigm for texture analysis and segmentation, and focus on the Dominant Component Analysis (DCA) algorithm.
+This treats the image as a locally narrow-band signal with slowly varying amplitude and orientation.<br>
+
+We  introduce an interpretation of Gabor filtering as a spatially-weighted fitting of a sinusoidal model and
+ cast the DCA algorithm in a detection-theoretic framework.
+We then build similar generative models for edge  patches, allowing to discriminate among edges and textures using model comparison. See e.g. <a href= "reconstruction.html"> reconstruction </a> results using the two alternative models.<br>
+This discrimination allows us to then fuse the texture, edge and non-texture cues for natural image segmentation in a spatially adaptive manner. This yields better results on the Berkeley segmentation benchmark than 
+Normalized Cuts, or variational methods using different features. <br>
+
+<p ALIGN="LEFT" style="margin-top: 0; margin-bottom: 1">
+I. Kokkinos, G. Evangelopoulos and P. Maragos, <br>
+<b>
+Texture Analysis and Segmentation using Modulation Features, Generative Models and
+Weighted Curve Evolution </b>
+<br>
+IEEE Trans. on Pattern Analysis and Machine Intelligence (PAMI), Vol. 31(1), pp. 142-157, 2009.<br>
+<a href="pubs/KokkinosEvangelopoulosMaragos_texture_PAMI08.pdf"> [pdf]
+<a href="bibs/KEM09.bib"> [bib]</a>
+<a href="slides/AMFM_math_UCLA.pdf"> [slides]</a>
+<a href="http://cvsp.cs.ntua.gr/research/texture/"> [project page]</a>
+<a href="http://cvsp.cs.ntua.gr/software/texture/"> [code]</a>
+</a><br><br>
+Earlier:
+
+ICIP 04a <a href="pubs/Kokkinos_Evangelopoulos_Maragos_DCA_detection_theory_ICIP04.pdf">[pdf]</a>
+<a  href="bibs/KEM04a.bib">[bib]</a>
+ICIP 04b <a href="pubs/Kokkinos_Evangelopoulos_Maragos_curve_evolution_modulation_ICIP04.pdf">[pdf]</a>
+<a href="bibs/KEM04b.bib">[bib]</a>
+VLSM 05
+<a href="pubs/EvangelopoulosKokkinosMaragos_advances_AMFM_vlsm05.pdf">[pdf]</a>
+<a  href="bibs/EKM05.bib">[bib]</a>
+Texture 05 
+<a href="pubs/KokkinosMaragos_discrimination_TW05.pdf">[pdf]</a>
+<a  href="bibs/KoMa05c.bib">[bib]</a>
+</p>
+</p>
+
+<hr />
+<a name="fcs"></a>
+<p><strong><img src="images/contours.bmp" alt="" width="230" height="175" class="left"> </strong>
+<p>
+<b> Biologically Plausible Networks </b>
+Starting from the analysis of Hopfield networks using Lyapunov functions, we develop a reaction-diffusion
+interpretation of a recurrent neural network that was initially developed for biological plausibility.
+<br>
+We then learn the parameters of such models using ground truth edge detection results. For this we build on the variational approach to statistical inference and interpret the network state evolution as estimating the mode of distribution. The learned model's performance is  superior to that of standard edge detection algorithms.
+<br>
+<br>
+<p ALIGN="LEFT" style="margin-top: 0; margin-bottom: 1">
+I. Kokkinos, R. Deriche, O. Faugeras and P. Maragos, <br>
+<b>
+Computational Analysis and Learning for a
+Biologically Motivated Model of Boundary Detection </b>
+<br>
+Neurocomputing, Vol. 71(10-12), pp. 1798-1812, 2008.<br>
+<a href="pubs/Kokkinos_et_al_neurocomputing_07.pdf">[pdf]</a>
+<a href="bibs/KDFM08.bib">[bib]</a><br><br>
+Longer INRIA report:
+<a href="pubs/KokkinosDeriche_report_bio_07.pdf">[pdf]</a>
+<a href="bibs/KDP07.bib">[bib]</a> 
+Earlier ECCV 2004 version:
+<a href="pubs/KokkinosDeriche_etal_BMCT_ECCV04.pdf">[pdf]</a>
+<a  href="bibs/KDMF04.bib">[bib]</a> <br>
+</p>
+
+<hr />
+<a name = "le"></a>
+<p><strong><img src="images/attractor.bmp" alt="" width="240" height="180" class="left"> </strong>
+<p>
+<b>  Speech and  Chaotic Systems </b>
+We use nonlinear function approximation techniques to analyze the nonlinear dynamics of speech.<br>
+An embedding of the observed scalar speech time series is first generated using time-delayed samples of the signal. For a sufficiently high dimension, the geometrical properties of the original dynamical system can be recovered. 
+<br>
+My research focused on algorithms for learning the embedded signal dynamics, using a sparse set of input-output pairs. This allows for the estimation of invariants of its dynamics, like Lyapunov exponents.
+Using mixture-of-experts for regression we obtained good results both on synthetic and real data, and the estimated Lyapunov exponents turned out to be useful as features for speech recognition.
+<br>
+<br>
+<p ALIGN="LEFT" style="margin-top: 0; margin-bottom: 1">
+I. Kokkinos and P. Maragos, <br>
+<b><font >
+Nonlinear Speech Analysis Using Models for Chaotic Systems </a></b><br>
+IEEE Trans. on Speech and Audio Processing, Vol. 13(6), pp. 1098-1109, 2005.<br>
+<a href="pubs/KokkinosMaragos_nonlinear_speech_TSAP05.pdf">[pdf]</a>
+<a href="bibs/KoMa05a.bib">[bib]</a><br>
+Earlier DSP 2002 version:
+<a href="pubs/dsp02_smfc_fh.ps">[pdf]</a>
+<a href="bibs/MDK02.bib">[bib]</a><br>
+</p>
+
+
+
+</p>
+			</div>
+			</div>
+		</div>
+		<!-- end content -->
+		<!-- start sidebar -->
+		<div id="sidebar">
+			<ul>
+					<h2>Jump to</h2>
+					<ul>
+						<li><a href="#hop">Hierarchical Object Parsing</a></li><hr />
+						<li><a href="#aam">Learning Deformations</a></li><hr />
+                        <li><a href="#tokensc">Contours and Recognition</a></li><hr />
+    				    <li><a href="#emsyn">Segmentation and Recognition</a></li><hr />
+						<li><a href="#sid">Scale-Invariant Descriptors</a></li><hr />
+						<li><a href="#amfm">Texture Analysis and Segmentation</a></li><hr />
+						<li><a href="#fcs">Biologically Plausible Networks</a></li><hr />
+						<li><a href="#le">Speech and Chaos</a></li>
+					</ul>
+			</ul>
+		</div>
+		<!-- end sidebar -->
+		<div style="clear: both;">&nbsp;</div>
+	</div>
+</div>
+<!-- end page -->
+<div id="footer">
+	<p>&copy;2007 All Rights Reserved. &nbsp;&bull;&nbsp; Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</p>
+</div>
+</body>
+</html>

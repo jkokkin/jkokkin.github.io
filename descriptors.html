@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Plain Office
+Description: A two-column, fixed-width blog design.
+Version    : 1.0
+Released   : 20071001
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Home Page of Iasonas Kokkinos</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="default.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+<!-- start header -->
+
+<div id="menu">
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="publications.html">Publications</a></li>
+		<li><a href="students.html">Students</a></li>
+		<li class="current_page_item"><a href="#">Code</a></li>
+		<li><a href="teaching.html">Teaching</a></li>
+		<li><a href="projects.html">Projects</a></li>
+	</ul>
+</div>
+
+<!-- end header -->
+
+<!-- start page -->
+<div id="page">
+	<div id="page-bg">
+		<!-- start content -->
+		<div id="content">
+			<div class="post">
+
+<center><h1> Dense Descriptors  for Images and Surfaces</h1></center>
+Code  for our image and surface descriptors (works with  M. & A.  Bronstein, E. Trulls, and A. Yuille)
+
+<table cellpadding=10 cellspacing=0 align=center>
+ <tr>
+  <td>
+  <img width=191 height=181 src="images/sid.png"></br>
+ SID  - CVPR 2008/ TR 2012<br>
+ <a href="code/sid.zip">sid.zip</a><br>
+<bf> NEW: </bf> S-SID/SIFT CVPR 2013  <br>
+ <a href="http://www.iri.upc.edu/people/etrulls/#code">Link</a><br>
+
+  </td>
+  <td>
+  <img width=191 height=181 src="images/sihks.jpg"></br>
+SI-HKS - CVPR 2010 <br>
+ <a href="code/sihks.zip">sihks.zip</a>
+  </td>
+  <td>
+  <img width=191 height=181 src="images/desc.png"><br>
+ISC  - CVPR 2012 <br>
+ <a href="code/isc.zip">isc.zip</a> (includes SI-HKS)
+  </td>
+</tr>
+
+</table>
+
+<br>
+<br>
+
+
+
+Brief description:
+<br>
+
+SID (Scale-Invariant Descriptor) is a densely computable, scale- and rotation- invariant descriptor. We use a log-polar grid around every point to turn rotation/scalings into translation, and then use the Fourier Transform Modulus to achieve invariance. <br>
+<br>
+
+<bf> NEW: </bf> S-SID/SIFT is a segmentation-aware variant of SID/SIFT. We use soft segmentations to discard measurements coming from image areas  different from the one at the descriptor's center. 
+<br>
+<br>
+
+SI-HKS (Scale-Invariant Heat Kernel Signatures) extract scale-invariant shape signatures by exploiting the fact that surface scaling amounts to multiplication and scaling of a properly sampled HKS descriptor. We apply the FTM trick on HKS to achieve invariance to scale changes. <br>
+<br>
+
+
+ISC (Intrinsic Shape Context)  constructs a net-like grid around every surface point by shooting outwards and tracking geodesics. This allows us to build a meta-descriptor on top of HKS/SI-HKS that takes neighborhood into account, while being invariant to surface isometries.  <br>
+<br>
+
+
+
+Relevant publications (please cite if you use the related code):
+<br>
+
+<p ALIGN="LEFT" style="margin-top: 0; margin-bottom: 1">
+E. Trulls, I. Kokkinos, A. Sanfeliu, and F. Moreno<br>
+<b>
+Dense Segmentation-Aware Descriptors </font></b>
+<br>
+Proc.
+IEEE Conf. on Computer Vision and Pattern Recognition (CVPR), 2013. </font>
+<a href="pubs/TrullsKokkinos_segmentation_aware_CVPR2013.pdf">[pdf]</a> <br>
+<br>
+
+I. Kokkinos, M. Bronstein, R. Littman and A. Bronstein <br>
+<b>
+Intrinsic Shape Context Descriptors for Deformable Shapes </font></b>
+<br>
+Proc.
+IEEE Conf. on Computer Vision and Pattern Recognition (CVPR), 2012. </font>
+<a href="pubs/KokkinosBronstein_ISC_CVPR12.pdf">[pdf]</a>
+<br>
+
+
+<p ALIGN="LEFT" style="margin-top: 0; margin-bottom: 1">
+I. Kokkinos, M. Bronstein and A. Yuille <br>
+<b>
+Dense Scale-Invariant Descriptors for Images and Surfaces</font></b>
+<br>
+Technical report 2012 </font>
+<a href="http://hal.inria.fr/docs/00/68/27/75/PDF/squelette-rr.pdf">[pdf]</a><br>
+
+
+
+<p ALIGN="LEFT" style="margin-top: 0; margin-bottom: 1">
+M. Bronstein and I. Kokkinos,<FONT COLOR="#FF0000"></FONT><br>
+<b>
+Scale-invariant heat kernel signatures for non-rigid shape recognition, </font></b><br>
+Proc.
+IEEE Conf. on Computer Vision and Pattern Recognition (CVPR), 2010. </font>
+<a href="pubs/BronsteinKokkinos_scale_invariance_CVPR10.pdf">[pdf]</a>
+</p>
+
+
+
+<p ALIGN="LEFT" style="margin-top: 0; margin-bottom: 1">
+I. Kokkinos and A. Yuille, <br>
+<b>
+Scale Invariance without Scale Selection, </a></font></b><br>
+Proc.
+IEEE Conf. on Computer Vision and Pattern Recognition (CVPR), 2008. </font>
+<a href="pubs/KokkinosYuille_ScaleInvariance_CVPR08.pdf">
+[pdf]</a>
+<a href="bibs/KoYu08.bib">[bib]</a>
+</p>
+
+
+
+
+
+
+
+</table>
+<br>
+These projects have  been partially supported by Agence Nationale de Recherche (ANR) under Grant ANR-10-JCJC-0205.
+<br>
+<br>
+			</div>
+			</div>
+		</div>
+		<!-- end content -->
+
+		<div style="clear: both;">&nbsp;</div>
+	</div>
+</div>
+<!-- end page -->
+<div id="footer">
+	<p>&copy;2007 All Rights Reserved. &nbsp;&bull;&nbsp; Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</p>
+</div>
+</body>
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=8538793; 
+var sc_invisible=1; 
+var sc_security="7445b719"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost +
+"statcounter.com/counter/counter.js'></"+"script>");</script>
+<noscript><div class="statcounter"><a title="create counter"
+href="http://statcounter.com/free-hit-counter/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/8538793/0/7445b719/1/"
+alt="create counter"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+</html>
+
+
+
+
+

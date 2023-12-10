@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Plain Office
+Description: A two-column, fixed-width blog design.
+Version    : 1.0
+Released   : 20071001
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Home Page of Iasonas Kokkinos</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="default.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+<!-- start header -->
+
+<div id="menu">
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="publications.html">Publications</a></li>
+		<li><a href="students.html">Students</a></li>
+		<li class="current_page_item"><a href="#">Code</a></li>
+		<li><a href="teaching.html">Teaching</a></li>
+		<li><a href="projects.html">Projects</a></li>
+	</ul>
+</div>
+
+<!-- end header -->
+
+<!-- start page -->
+<div id="page">
+	<div id="page-bg">
+		<!-- start content -->
+		<div id="content">
+			<div class="post">
+
+
+
+<center><h2>Scale-Invariant Primal Sketch Tokens</h2></center>
+
+<table cellpadding=0 cellspacing=0 align=center>
+ <tr>
+  <td width=81 height=1></td>
+ </tr>
+ <tr>
+  <td></td>
+  <td><img width=631 height=361
+  src="images/image010.gif"
+  v:shapes="_x0000_s1048 _x0000_s1045 _x0000_s1044 _x0000_s1030 _x0000_s1031 _x0000_s1032 _x0000_s1033 _x0000_s1036 _x0000_s1037 _x0000_s1038 _x0000_s1039 _x0000_s1043 _x0000_s1046"></td>
+ </tr>
+</table>
+<br>
+<hr>
+
+<h3>Introduction</h3>
+<p>
+This code is my implementation of T. Lindeberg's scale-invariant primal sketch. I
+have been using this over the last years in my research on object detection  and shape modeling.<br><br>
+The code takes as input a grayscale image and convolves it with Gaussian kernels of
+increasing size. Using this scale-space, edge and ridge contours are found as maxima in space
+and scale of appropriate differential operators. These contours are then post-processed to
+obtain a sparse set of straight line segments.<br>
+Apart from computing T. Lindeberg's primal sketch, additional functionalities that are
+generally useful include:
+<ul>
+<li> Efficient Gaussian Filtering with a mex implementation of R. Deriche's IIR Filters.
+<li> A line tracking algorithm along the lines of Nevatia and Babu.
+<li> The line segmentation algorithm used in D. Lowe's SCEPRO system.
+</ul>
+
+<h3>Related Publications</h3>
+
+<p ALIGN="LEFT" style="margin-top: 0; margin-bottom: 1">
+I. Kokkinos and A. Yuille, <br>
+<b>
+HOP: Hierarchical Object Parsing, </font></b><br>
+Proc.
+IEEE Conf. on Computer Vision and Pattern Recognition (CVPR), 2009. </font><br>
+<a href="pubs/KokkinosYuille_HOP_CVPR09.pdf">[pdf]</a>
+<a href="bibs/KoYu09.bib">[bib]</a>
+</p>
+
+
+<p ALIGN="LEFT" style="margin-top: 0; margin-bottom: 1">
+I. Kokkinos and A. Yuille, <br>
+<b>
+Scale Invariance without Scale Selection, </a></font></b><br>
+Proc.
+IEEE Conf. on Computer Vision and Pattern Recognition (CVPR), 2008. </font><br>
+<a href="KokkinosYuille_ScaleInvariance_CVPR08.pdf">
+[pdf]</a>
+<a href="bibs/KoYu08.bib">[bib]</a>
+</p>
+<p ALIGN="LEFT" style="margin-top: 0; margin-bottom: 1">
+I. Kokkinos and A. Yuille, <br>
+<b>
+Unsupervised Learning of Object Deformation Models,
+</b><br>
+Proc. IEEE Int'l. Conf. on Computer Vision (ICCV), 2007.<br>
+<a  href="pubs/KokkinosYuille_deformations_iccv07.pdf">[pdf]</a>
+<a href="pubs/KokkinosYuille_deformations_supplemental.pdf">
+[supplement]</a>
+<a  href="slides/Deformations_UCLA_Oct_2007.pdf">
+[slides]</a>
+<a  href="bibs/KoYu07.bib">
+[bib]</a>
+</p>
+
+<li> <p ALIGN="LEFT" style="margin-top: 0; margin-bottom: 1">
+I. Kokkinos, P. Maragos  and A. Yuille, <br>
+<b>
+Bottom-Up and Top-Down Object Detection Using Primal
+Sketch Features and Graphical Models,
+</b><br>
+Proc.
+IEEE Conf. on Computer Vision and Pattern Recognition (CVPR), 2006.
+<br></font>
+<a  href="pubs/KokkinosMaragosYuille_primal_sketch_CVPR06.pdf">[pdf]</a>
+<a  href="bibs/KMY06.bib">[bib]</a>
+</p>
+
+<li> Tony Lindeberg, <br>
+<b> Edge Detection and Ridge Detection with Automatic Scale Selection </b>,<br>
+ International Journal of Computer Vision, v.30 n.2, p.117-156, Nov. 1998
+<br>
+<br>
+<br>
+<h3> Terms of use </h3>
+<p>
+<i>If you use this code in your research, please cite our CVPR 2006 paper.</i>
+<i></i>
+</p>
+<h3> Downloads</h3>
+<p>
+Code, readme, documentation: <a href="code/PS_primal_sketch.zip">PS_primal_sketch.zip</a>. <br>
+Usage, demos etc: <a href="code/readme.pdf">readme.pdf</a>.
+<hr>
+
+			</div>
+			</div>
+		</div>
+		<!-- end content -->
+
+		<div style="clear: both;">&nbsp;</div>
+	</div>
+</div>
+<!-- end page -->
+<div id="footer">
+	<p>&copy;2007 All Rights Reserved. &nbsp;&bull;&nbsp; Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</p>
+</div>
+</body>
+</html>

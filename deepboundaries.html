@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Plain Office
+Description: A two-column, fixed-width blog design.
+Version    : 1.0
+Released   : 20071001
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Home Page of Iasonas Kokkinos</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="default.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+<!-- start header -->
+
+<div id="menu">
+	<ul>
+<li><a href="index.html">Home</a></li>
+		<li><a href="publications.html">Publications</a></li>
+		<li><a href="students.html">Students</a></li>
+		<li><a href="code.html">Code</a></li>
+		<li><a href="teaching.html">Teaching</a></li>
+		<li><a href="projects.html">Projects</a></li>
+	</ul>
+</div>
+
+<!-- end header -->
+
+<!-- start page -->
+<div id="page">
+	<div id="page-bg">
+		<!-- start content -->
+		<div id="content">
+			<div class="post">
+
+<center><h1>Pushing the boundaries of boundary detection using deep learning</h1></center>
+</a></b>
+<br>
+<table cellpadding=10 cellspacing=0 align=center>
+<tr>
+  <td>
+ <td>
+  <img width=181  src="images/im.png"><br>
+  Input
+  </td>
+  <td>
+  <img width=181  src="images/fat.png"><br>
+  CNN output
+  </td>
+  </td>
+  <td>
+  <img width=181  src="images/bnd.png"><br>
+  Thinned boundaries
+  </td>
+  </td>
+ </tr>
+</table>
+
+<br>
+<br> This is a preliminary release of a state-of-the-art boundary detector  presented in:
+<br> 
+<br> Iasonas Kokkinos, “Pushing the boundaries of boundary detection using deep learning”,
+ International Conference on Learning Representations, 2016.
+<br>
+<br>
+<bf> The caffe-based model and matlab code are available from <a href= "code/deepboundaries.zip">here</a>. </bf> 
+<br>
+
+<br>
+Among the several variants described in the paper, the present code allows running the 
+Multi-Resolution variant trained with VOC-Context in ‘test’ mode. The provided model has been trained with batch-normalization and has improved performance.
+When evaluated on the Berkeley Segmentation Dataset the model obtains an F-measure of 0.813, as opposed to 0.809 reported in the paper. We note that the  F-measure of humans on this benchmark is at 0.803.
+<br>
+<br>
+The normalised-cut variant, as well as the training code will be made available soon. 
+<br>
+<br>
+Please cite the work above if you find the code useful in your research.<br>
+This project was in turn based on the following references; please cite as well.
+<br>
+<br>S. Xie and Z. Tu, Holistically Nested Edge detection, International Conference on Computer Vision, 2015. 
+<br>
+<br>
+Y. Jia, E. Shelhamer, J. Donahue, S. Karayev, J. Long, R. Girshick, S. Guadarrama and T. Darrell, Caffe: Convolutional architecture for fast feature embedding, Proceedings of the ACM International Conference on Multimedia, 2014.
+
+<br>
+<br>
+
+
+
+			</div>
+			</div>
+		</div>
+		<!-- end content -->
+
+		<div style="clear: both;">&nbsp;</div>
+	</div>
+</div>
+<!-- end page -->
+<div id="footer">
+	<p>&copy;2007 All Rights Reserved. &nbsp;&bull;&nbsp; Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</p>
+</div>
+</body>
+
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=10981358; 
+var sc_invisible=1; 
+var sc_security="71fccedc"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="site stats"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="//c.statcounter.com/10981358/0/71fccedc/1/" alt="site
+stats"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+
+</html>
+
+
+
+

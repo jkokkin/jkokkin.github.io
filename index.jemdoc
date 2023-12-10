@@ -1,0 +1,89 @@
+# jemdoc: menu{MENU}{index.html}, title{BASIS Tutorial at CVPR 2014}
+= CVPR 2014 Tutorial: BASes for Images and Surfaces (BASIS) {{<a name="home"></a>}}
+
+~~~
+Full-day tutorial in conjunction with [http://www.pamitc.org/cvpr14/ CVPR 2014].\n
+Monday, June 23, 2014, Columbus, Ohio, United States.\n
+
+#/Location/: Glenbrook + Emerald Bay, Harrah's Special Events Center 2nd Floor.\n
+/Schedule/: Check out the tutorial's program [program.html here].
+~~~
+
+== Description {{<a name="description"></a>}}
+
+BASIS-14 will be a full day tutorial covering the current state-of-the-art in
+linear and nonlinear image and surface analysis techniques. Our aim is to
+provide attendees with a clear understanding of the theory and practice in
+this area by developing a unified treatment in terms of basis-based
+expansions.
+
+Starting with the fundamentals of linear image processing, we will see how the
+main notions of Fourier transforms can be understood in terms of a change of
+basis, and use this intuition to explore its multifold ramifications and
+extensions to nonlinear image processing and surface analysis.
+
+In particular we will cover the range of techniques developed around sparse
+coding with overcomplete dictionaries, involving optimization with sparsity
+inducing norms, dictionary learning, exemplar and patch-based representations,
+and non-local modeling. We will discuss the notions of scale and invariance in
+this setting and draw connections with classic multi-resolution approaches and
+recent developments in deep learning.
+
+Turning to 3D shape processing and analysis, we will build on the intuition
+developed around Fourier analysis in Euclidean spaces and heat diffusion on
+images, and discuss how the same notions generalize to non-Euclidean spaces
+(surfaces), through the development of heat diffusion on surfaces by means of
+the Laplace-Beltrami operator and its spectral decomposition. We will show
+applications in finding correspondence and similarity between deformable
+shapes, local and global feature descriptors, shape filtering and editing. 
+
+We will illustrate the importance of the techniques with applications spanning
+both classical image processing problems, such as denoising and deblurring but
+also cutting-edge computer vision problems involving image classification,
+object detection, shape retrieval and surface registration, among others.
+
+
+== Organizers {{<a name="organizers"></a>}}
+
+- [http://eng.tau.ac.il/~bron Alex Bronstein], Tel Aviv University/Intel
+- [http://inf.usi.ch/bronstein Michael Bronstein], USI Lugano/Intel
+- [http://vision.mas.ecp.fr/Personnel/iasonas Iasonas Kokkinos], Ecole Centrale Paris/INRIA
+- [http://ttic.uchicago.edu/~gpapan George Papandreou], TTI Chicago
+
+# == References {{<a name="references"></a>}}
+
+# #includeraw{refs.html}
+
+== Previous Related Tutorials {{<a name="related"></a>}}
+
+Our tutorial is unique in that it aims at providing a broad coverage of image
+and surface analysis applications while employing a common theoretical
+framework. The relevant topics have been already covered by multiple different
+tutorials at ICCV, CVPR, and ECCV over the last three years, but we envisage to
+provide a unified view of their relationships.
+
+=== Surface analysis
+
+ECCV 2010, CVPR 2011: [http://tosca.cs.technion.ac.il/book/course_eccv10.html Diffusion Geometry in Shape Analysis] (Michael Bronstein, Alex Bronstein, and Radu Horaud)
+
+ICCV 2013: Spectral geometry methods in 3D data analysis (Alex Bronstein, Michael Bronstein)
+
+=== Feature learning
+
+ECCV 2010: [http://ufldl.stanford.edu/eccv10-tutorial Feature Learning for Image Classification] (Kai Yu and Andrew Ng)
+
+CVPR 2012: [http://www.iro.umontreal.ca/~memisevr/multiview-feature-learning-cvpr Multiview Feature Learning]  (Roland Memisevic)
+
+CVPR 2012: [http://cs.nyu.edu/~fergus/tutorials/deep_learning_cvpr12 Deep Learning Methods for Vision] (Rob Fergus, Honglak Lee, Marc'Aurelio Ranzato, Graham Taylor, Ruslan Salakhutdinov, Kai Yu)
+
+=== Sparse coding
+
+CVPR 2010: [http://lear.inrialpes.fr/people/mairal/tutorial_cvpr2010 Tutorial on Sparse Coding and Dictionary Learning for Image Analysis] (F. Bach, J. Mairal, J. Ponce, G. Sapiro)
+
+ECCV 2012: [http://www.eecs.berkeley.edu/~yang/courses/ECCV2012 Sparse and Low-Rank Representation for Computer Vision -- Theory, Algorithms and Applications] (Yi Ma, John Wright, Allen Y. Yang)
+
+ICCV 2013: [http://www.stanford.edu/~rangst/cgi-bin/iccv-13-tutorial/overview Low-Dimensional Subspaces in Computer Vision] (Roland Angst)
+
+=== General
+
+IPAM/UCLA 2013: [http://www.ipam.ucla.edu/programs/gss2013 Graduate Summer School in Computer Vision] (organized by Alan Yuille et al.)
