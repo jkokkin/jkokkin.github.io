@@ -1,87 +1,119 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<!--
-Design by Free CSS Templates
-http://www.freecsstemplates.org
-Released for free under a Creative Commons Attribution 2.5 License
-
-Name       : Plain Office
-Description: A two-column, fixed-width blog design.
-Version    : 1.0
-Released   : 20071001
-
--->
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>Home Page of Iasonas Kokkinos</title>
-<meta name="keywords" content="" />
-<meta name="description" content="" />
-<link href="default.css" rel="stylesheet" type="text/css" media="screen" />
+  <meta charset="UTF-8">
+  <title>Iasonas Kokkinos</title>
+  <style>
+    body {
+      max-width: 720px;
+      margin: 40px auto;
+      font-family: sans-serif;
+      line-height: 1.6;
+      color: #000;
+      background: #fff;
+    }
+    img {
+      float: left;
+      margin-right: 20px;
+      width: 150px;
+      border-radius: 8px;
+    }
+    h1 {
+      margin-top: 0;
+    }
+    a {
+      color: #0645AD;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .clear {
+      clear: both;
+    }
+  </style>
 </head>
 <body>
-<!-- start header -->
 
-<!DOCTYPE HTML>
+  <img src="profile.jpg" alt="Iasonas Kokkinos">
+  <h1>Iasonas Kokkinos</h1>
+  <p>
+    Associate Professor, Department of Computer Science<br>
+    University College London<br>
+    <a href="mailto:i.kokkinos@ucl.ac.uk">i.kokkinos@ucl.ac.uk</a><br>
+    [<a href="cv.pdf">CV</a>] 
+    [<a href="https://scholar.google.com/citations?hl=en&user=ZO3Ek1gAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a>] 
+    [<a href="https://www.linkedin.com/in/iasonas-kokkinos-1a4593157/">LinkedIn</a>]
+  </p>
 
-<div id="menu">
-	<ul>
-		<li class="current_page_item"><a href="#">Home</a></li>
-		<li><a href="publications.html">Publications</a></li>
-		<li><a href="students.html">Students</a></li>
-		<li><a href="code.html">Code</a></li>
-		<li><a href="teaching.html">Teaching</a></li>
-		<li><a href="projects.html">Projects</a></li>
-	</ul>
-</div>
-<!-- end header -->
+  <div class="clear"></div>
 
-<!-- start page -->
-<div id="page">
-	<div id="page-bg">
-		<!-- start content -->
-		<div id="content">
-			<div class="post">
-				<div class="entry">
-				<p><strong><img src="iasonas_17.png" alt="" width="175" height="185" class="left" /> </strong>
-<p>
-Iasonas Kokkinos <br>
-<br>
-Senior Manager, Computer Vision Engineering, Snap<br>
-<br>
-<br>
-Associate Professor (on leave of absence)<br>
-Department of Computer Science, University College London  <br>
-<br>
-<br>
-<a href="Kokkinos_cv_Dec_2023.pdf">CV</a> <a href="https://scholar.google.co.uk/citations?user=ZO3Ek1gAAAAJ&hl=en&oi=ao">google scholar</a>
-<a href="https://arxiv.org/search/cs?searchtype=author&query=Kokkinos%2C+I">latest works</a>
-<br>
+  <h2>About</h2>
+  <p>
+  I am an Associate Professor of Computer Science at University College London, working at the intersection of computer vision and deep learning, with an emphasis on 3D human understanding and weakly-supervised learning of 3D geometric representations.
+  I'm particularly interested in methods that combine scientific rigor with practical impact, bridging academic research and real-world applications.
+  </p>
+  <p>
+ I have worked in industry in parallel with my academic work: From 2016 to 2018, I was a Research Scientist at Facebook AI Research (FAIR). In 2018, I co-founded <a href="https://www.youtube.com/@arielai2707">Ariel AI</a>, a startup focused on on-device, full-body 3D reconstruction for augmented reality (AR).
+  Following our acquisition by Snap Inc., I led Snap's Human3D team between 2020-2024, helping deliver full-body AR experiences to hundreds of millions of users.
+  </p>
+  <p>
+    Earlier, I earned my Dipl. Eng. and PhD in Electrical and Computer Engineering from NTUA, followed by a postdoc at UCLA, and a decade on the faculty at École Centrale Paris and as an affiliated researcher at INRIA.
+  </p>
 
+  <h2>Selected Publications</h2>
 
+  <p><b>MeshPose: Unifying DensePose and 3D Body Mesh reconstruction</b><br>
+  Eric-Tuan Le, Antonis Kakolyris, Petros Koutras, Himmy Tam, Efstratios Skordos, Riza Alp Guler, George Papandreou, Iasonas Kokkinos<br>
+  <i>CVPR, 2024</i><br>
+  [<a href="https://meshpose.github.io/">Project Page</a>]
+  </p>
 
-				</div>
-			</div>
-		</div>
-		<!-- end content -->
+  <p><b>StyleMorph: Disentangled 3D-Aware Image Synthesis with a 3D Morphable StyleGAN</b><br>
+  Eric-Tuan Le, Edward Batrum, Iasonas Kokkinos<br>
+  <i>ICLR, 2023</i><br>
+  [<a href="https://stylemorph.github.io/stylemorph/">Project Page</a>]
+  </p>
 
-		<div style="clear: both;">&nbsp;</div>
-	</div>
-</div>
-<!-- end page -->
-<div id="footer">
-	<p>&copy;2007 All Rights Reserved. &nbsp;&bull;&nbsp; Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</p>
-</div>
-<!-- Start of StatCounter Code -->
-<script type="text/javascript" language="javascript">
-var sc_project=2525174;
-var sc_invisible=0;
-var sc_partition=24;
-var sc_security="2802d370";
-</script>
+  <p><b>To The Point: Correspondence-driven monocular 3D category reconstruction</b><br>
+  Filippos Kokkinos, Iasonas Kokkinos<br>
+  <i>NeurIPS, 2021</i><br>
+  [<a href="https://fkokkinos.github.io/to_the_point/">Project Page</a>]
+  </p>
 
-<script type="text/javascript" language="javascript" src="http://www.statcounter.com/counter/counter.js"></script><noscript><a href="http://www.statcounter.com/" target="_blank"><img  src="http://c25.statcounter.com/counter.php?sc_project=2525174&amp;java=0&amp;security=2802d370&amp;invisible=0" alt="website stats" border="0"></a> </noscript>
-<!-- End of StatCounter Code -->
+  <p><b>Learning monocular 3D reconstruction of articulated categories from motion</b><br>
+  Filippos Kokkinos, Iasonas Kokkinos<br>
+  <i>CVPR, 2021</i><br>
+  [<a href="https://fkokkinos.github.io/video_3d_reconstruction/">Project Page</a>]
+  </p>
+
+  <p><b>Weakly-Supervised Mesh-Convolutional Hand Reconstruction in the Wild</b><br>
+  Dominik Kulon, Riza Alp Güler, Iasonas Kokkinos, Michael Bronstein, Stefanos Zafeiriou<br>
+  <i>CVPR 2020 (Oral, Best Paper Shortlist)</i><br>
+  [<a href="https://www.youtube.com/watch?v=DUDxGh2_q3w&t=3s">Video</a>]
+  </p>
+
+  <p><b>HoloPose: Holistic 3D Human Reconstruction In-The-Wild</b><br>
+  Riza Alp Guler, Iasonas Kokkinos<br>
+  <i>CVPR, 2019 (Oral)</i><br>
+  [<a href="https://www.youtube.com/watch?v=cCIKwDKFIMU">Video</a>]
+  </p>
+
+  <p><b>DensePose: Dense Human Pose Estimation In The Wild</b><br>
+  Riza Alp Güler, Natalia Neverova, Iasonas Kokkinos<br>
+  <i>CVPR, 2018 (Oral)</i><br>
+  [<a href="https://www.youtube.com/watch?v=Dhkd_bAwwMc&ab_channel=AlpGuler">Video</a>]
+  </p>
+
+  <p><b>UberNet: Training a 'Universal' Convolutional Neural Network for Low-, Mid-, and High-Level Vision using Diverse Datasets and Limited Memory</b><br>
+  Iasonas Kokkinos<br>
+  <i>CVPR, 2017 (Oral)</i>
+  </p>
+
+  <p><b>DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs</b><br>
+  Liang-Chieh Chen, George Papandreou, Iasonas Kokkinos, Kevin Murphy, Alan L. Yuille<br>
+  <i>ICLR, 2016</i>
+  </p>
+
 </body>
 </html>
-
-</p>
