@@ -67,10 +67,6 @@
     main { margin-top: 42px; }
 
     .intro {
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) 180px;
-      gap: 32px;
-      align-items: start;
       padding-bottom: 34px;
       border-bottom: 1px solid var(--line);
     }
@@ -87,14 +83,6 @@
       margin: 0;
       color: var(--muted);
       font-size: 1.1rem;
-    }
-
-    .portrait {
-      width: 180px;
-      aspect-ratio: 1;
-      object-fit: cover;
-      border: 1px solid var(--line);
-      border-radius: 4px;
     }
 
     .content {
@@ -135,8 +123,6 @@
 
     @media (max-width: 640px) {
       .page { width: min(100% - 28px, 920px); padding-top: 22px; }
-      .intro { grid-template-columns: 1fr; gap: 20px; }
-      .portrait { width: 138px; }
       .content { grid-template-columns: 1fr; gap: 8px; }
       .apply { grid-column: auto; }
     }
@@ -151,15 +137,12 @@
 
     <main>
       <div class="intro">
-        <div>
-          <h1>PhD Opportunities at Imperial College London</h1>
-          <p class="lead">
-            I will join Imperial College London in September 2026 to work on Human-Centric Physical
-            Intelligence: visual and embodied AI systems that understand people, reason about 3D
-            structure and motion, and operate in the physical world.
-          </p>
-        </div>
-        <img class="portrait" src="iasonas_17.png" alt="Iasonas Kokkinos">
+        <h1>PhD Opportunities at Imperial College London</h1>
+        <p class="lead">
+          I will join Imperial College London in September 2026 to work on Human-Centric Physical
+          Intelligence: visual and embodied AI systems that understand people, reason about 3D
+          structure and motion, and operate in the physical world.
+        </p>
       </div>
 
       <div class="content">
