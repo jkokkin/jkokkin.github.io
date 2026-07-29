@@ -84,15 +84,20 @@
       font-size: 1.1rem;
     }
 
-    .content {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 32px;
-      margin-top: 34px;
+    .intro .apply-links { margin-top: 18px; }
+
+    .content { margin-top: 34px; }
+
+    section {
+      padding: 0 0 28px;
+      margin-bottom: 28px;
+      border-bottom: 1px solid var(--line);
     }
 
-    section { padding-bottom: 28px; }
-    .apply { grid-column: 1 / -1; border-top: 1px solid var(--line); padding-top: 28px; }
+    section:last-child {
+      margin-bottom: 0;
+      border-bottom: 0;
+    }
 
     h2 {
       margin: 0 0 12px;
@@ -102,6 +107,21 @@
     }
 
     p { margin: 0 0 12px; }
+
+    .application-details {
+      display: grid;
+      gap: 16px;
+      margin-bottom: 18px;
+    }
+
+    .application-details h3 {
+      margin: 0 0 4px;
+      font-size: 1rem;
+      line-height: 1.35;
+      font-weight: 650;
+    }
+
+    .application-details p { margin: 0; }
 
     ul {
       margin: 0;
@@ -120,10 +140,15 @@
       font-weight: 600;
     }
 
+    .apply-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 0;
+    }
+
     @media (max-width: 640px) {
       .page { width: min(100% - 28px, 920px); padding-top: 22px; }
-      .content { grid-template-columns: 1fr; gap: 8px; }
-      .apply { grid-column: auto; }
     }
   </style>
 </head>
@@ -136,51 +161,100 @@
 
     <main>
       <div class="intro">
-        <h1>PhD Opportunities at Imperial College London</h1>
+        <h1>Fully Funded PhD Scholarship</h1>
         <p class="lead">
-          I will join Imperial College London in September 2026 to work on Human-Centric Physical
-          Intelligence: visual and embodied AI systems that understand people, reason about 3D
-          structure and motion, and operate in the physical world.
+          Applications are invited for a fully funded PhD studentship in Human-centric Physical Intelligence under the supervision of Dr. Iason Kokkinos at the Department of Computing, Imperial College London.
         </p>
+        <div class="apply-links">
+          <a class="apply-link" href="https://www.imperial.ac.uk/computing/prospective-students/courses/phd/scholarships/">Departmental scholarship listing</a>
+          <a class="apply-link" href="https://www.imperial.ac.uk/computing/prospective-students/courses/phd/">Department of Computing PhD programme</a>
+        </div>
       </div>
 
       <div class="content">
         <section aria-labelledby="direction-title">
           <h2 id="direction-title">Research direction</h2>
           <p>
-            The group will connect computer vision, learning, geometry, control, and human movement.
-            We are interested in systems that move beyond recognizing pixels: reconstructing humans
-            in 3D, learning models of motion and interaction, and grounding intelligence in
-            physically meaningful representations.
+            We want to develop the next generation of physical intelligence: robots that work
+            alongside people by reasoning about 3D structure, motion, and the physical world, enabling
+            them to perceive, interact, collaborate, and assist through contact-rich physical
+            interactions.
           </p>
           <p>
-            This creates opportunities across human-centred perception, simulation, robotics, and
-            augmented reality.
+            The project will investigate how advances in human perception, together with generative
+            models of human shape, motion, and appearance, can be used to build predictive models of
+            human behaviour. These models will enable robots to understand and anticipate human
+            actions, learn interaction policies, and plan safe and effective behaviour in dynamic,
+            human-centred environments.
           </p>
         </section>
 
         <section aria-labelledby="fit-title">
           <h2 id="fit-title">Who should apply</h2>
-          <p>
-            I am looking for PhD students who want to work across disciplinary boundaries and turn
-            ideas into robust computational systems. A strong fit may come from computer vision,
-            machine learning, robotics, graphics, control, mathematics, or a related area.
-          </p>
+          <p><strong>Requirements</strong></p>
           <ul>
-            <li>Curiosity about 3D structure, motion, and the physical world.</li>
-            <li>Comfort combining theory, models, data, and experiments.</li>
-            <li>An interest in human-centred problems and real-world impact.</li>
+            <li>A degree in electrical engineering, computer science, applied mathematics, or a related field.</li>
+            <li>A background in at least one of computer vision, robotics, machine learning, graphics, optimisation, or probability.</li>
+            <li>Strong C++/Python programming skills, solid background in mathematics and statistics.</li>
+            <li>Intellectual curiosity and a willingness to experiment, adapt, learn from others, and collaborate effectively.</li>
+          </ul>
+          <p><strong>Highly valued</strong></p>
+          <ul>
+            <li>Research experience with 3D human representations, generative modelling, reinforcement learning, or real robot platforms.</li>
           </ul>
         </section>
 
-        <section class="apply" aria-labelledby="apply-title">
+        <section aria-labelledby="apply-title">
           <h2 id="apply-title">How to apply</h2>
+                        <p>
+                The formal application should be submitted through Imperial's doctoral application process and use the following fields: <br>
+                <strong>Proposed Research Topic: Human-centric Physical Intelligence</strong> <br>
+                and <br>
+                <strong>Proposed Research Supervisor: Iason Kokkinos</strong>.
+              </p>
           <p>
-            Please apply through the Imperial College London Department of Computing PhD scholarship
-            process. In your application, explain the research questions you would like to pursue and
-            how your background connects to this direction.
+          For administrative questions about eligibility, English-language requirements, or the
+          application portal, please use Imperial's admissions guidance.
           </p>
-          <a class="apply-link" href="https://www.imperial.ac.uk/computing/prospective-students/phd/scholarships/">Imperial PhD scholarships</a>
+          <h2 id="apply-title">Contact</h2>
+
+          <p>
+            If you plan to apply and have questions, email me at
+            <a href="mailto:iasonas.kokkinos@gmail.com">iasonas.kokkinos@gmail.com</a> with
+            <em>Human-Centric Physical Intelligence</em> in the email subject.
+          </p>
+          <p>
+            I will do my best to reply promptly, but I cannot guarantee a response to every enquiry.
+          </p>
+          <p>When contacting me, it can help if you include the following:</p>
+          <div class="application-details">
+            <div>
+              <h3>Cover letter </h3>
+              <p>
+                Include a one-page letter explaining why you are interested in this research
+                direction and in pursuing a PhD, summarising your relevant experience, and
+                identifying research questions that interest you.
+              </p>
+            </div>
+            <div>
+              <h3>CV and project evidence</h3>
+              <p>
+                Include publications, if any, and previous hands-on projects with your specific
+                contributions. Links to videos, GitHub repositories, and your MSc thesis or an
+                extended abstract are especially helpful.
+              </p>
+            </div>
+            <div>
+              <h3>Transcripts and referees</h3>
+              <p>
+                Include undergraduate and master's transcripts, and provide the details of your
+                referees.
+              </p>
+            </div>
+          </div>
+          <div class="apply-links">
+            <a class="apply-link" href="https://www.imperial.ac.uk/study/apply/postgraduate-doctoral/application-process/">Imperial doctoral application process</a>
+          </div>
         </section>
       </div>
     </main>
